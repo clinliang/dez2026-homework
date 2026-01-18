@@ -1,3 +1,9 @@
+# Project specific folders to ignore
+notebooks/
+tests/
+scratch/
+variants/
+
 *.parquet
 
 # Byte-compiled / optimized / DLL files

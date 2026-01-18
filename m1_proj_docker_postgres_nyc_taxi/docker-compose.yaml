@@ -1,0 +1,61 @@
+services:
+  db:
+    image: postgres:18
+    container_name: ny_taxi_pgdb
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: ny_taxi
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql
+    networks:
+      - ny_taxi_net
+
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: ny_taxi_pgadmin
+    depends_on:
+      - db
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: root
+    ports:
+      - "8085:80"
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    networks:
+      - ny_taxi_net
+
+  taxi-ingest:
+    build: .
+    image: ny-taxi/ingest
+    depends_on:
+      - db
+    environment:
+      PGHOST: db
+      PGPORT: 5432
+      PGUSER: root
+      PGPASSWORD: root
+      PGDATABASE: ny_taxi
+      PYTHONPATH: /app # for run .py instead of -m
+    volumes:
+      - .:/app:ro # for the project, app|data|pyproject.toml
+      - ingest_venv:/app/.venv # protect .venv
+      - ./data:/app/data     
+    working_dir: /app
+    networks:
+      - ny_taxi_net
+
+volumes:
+  pgdata:
+    name: ny_taxi_pgdata
+  pgadmin_data:
+    name: ny_taxi_pgadmin_data
+  ingest_venv:              
+    name: ny_taxi_ingest_venv
+
+networks:
+  ny_taxi_net:
+    name: ny_taxi_net

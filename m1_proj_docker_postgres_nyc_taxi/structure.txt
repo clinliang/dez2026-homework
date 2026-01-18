@@ -1,0 +1,32 @@
+.
+├── .dockerignore
+├── .env
+├── .python-version
+├── Dockerfile
+├── README.md
+├── app
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   └── __init__.cpython-313.pyc
+│   ├── cli
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   └── ingest.py
+│   ├── config
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   └── db_config.py
+│   └── ingest
+│       ├── __init__.py
+│       ├── __pycache__
+│       ├── local_parquet_trips.py
+│       ├── url_csv_trips.py
+│       └── url_csv_zones.py
+├── data
+│   └── green_tripdata_2025-11.parquet
+├── docker-compose.yaml
+├── pyproject.toml
+├── structure.txt
+└── uv.lock
+
+9 directories, 20 files

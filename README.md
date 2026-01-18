@@ -1,34 +1,10 @@
-# Data Engineering & Applied AI Portfolio
+# Data Engineering Zoomcamp 2026 — Homework & Practice Repository (Linliang CHEN)
 
-## Projects
-1. proj1_ingest_ny_taxi
-   - Python ETL, PostgreSQL, Docker
-   - Focus: robust ingest & schema evolution
+This repository contains homework and practice materials for the Data Engineering Zoomcamp 2026.
 
-2. proj2_ingest_multi_pipelines
-   - Config-driven pipelines
-   - Focus: scalability & maintainability
+## Structure
+- **Module 1 Project & Homework**: Detailed solutions, Docker setup, and ingestion scripts can be found in the [m1_proj_docker_postgres_nyc_taxi/](./m1_proj_docker_postgres_nyc_taxi/) directory. Please refer to the `README.md` inside that folder for specific instructions.
 
-3. proj4_ingest_airflow_dbt
-   - Airflow + dbt
-   - Focus: analytics engineering readiness
-
-## Tech Stack
-Python · SQL · Docker · Airflow · dbt · PostgreSQL
-
-## Design Philosophy
-- dbt-friendly ingest
-- Config over code
-- Production-oriented MVP
-
-
-## Branch Strategy
-See docs/git-branches.md
-
-## Development & Governance
-
-This repository follows a structured Git workflow.
-
-- Branch strategy: docs/git-branches.md
-- Daily workflow: docs/git-workflow.md
-- Commit rules: docs/commit-convention.md
+## Branches
+- **main**: Final homework and project submissions.
+- **learn**: Local practice and experimental code (not pushed to GitHub).
