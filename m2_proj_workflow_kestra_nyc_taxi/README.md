@@ -114,6 +114,6 @@ Create flows in Kestra and run them. Backfill scheduled flows with triggers acco
 
 ## IV. References
 
-- [Homework instruction] (https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2026/02-workflow-orchestration/homework.md)
+- [Homework instruction](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2026/02-workflow-orchestration/homework.md)
 
-- [Submission URL (< 03/02/2025)] (https://courses.datatalks.club/de-zoomcamp-2026/homework/hw2)
+- [Submission URL (< 03/02/2025)](https://courses.datatalks.club/de-zoomcamp-2026/homework/hw2)
