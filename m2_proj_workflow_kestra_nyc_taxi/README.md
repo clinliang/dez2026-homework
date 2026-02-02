@@ -3,8 +3,6 @@
 **Version 3.1**  
 A modular data engineering stack using Kestra, Postgres, Google Cloud Platform (GCP), and pgAdmin to orchestrate the ingestion and storage of NYC Taxi datasets (Yellow / Green).
 
-[**Homework Repository: Module2 Workflow Orchestation with Kestra**](https://github.com/clinliang/dez2026-homework/tree/main/m2_proj_workflow_kestra_nyc_taxi)
-
 ---
 
 ## Summary
@@ -113,6 +111,8 @@ Create flows in Kestra and run them. Backfill scheduled flows with triggers acco
 ---
 
 ## IV. References
+
+- [Homework M2 Repository - cll](https://github.com/clinliang/dez2026-homework/tree/main/m2_proj_workflow_kestra_nyc_taxi)
 
 - [Homework instruction](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2026/02-workflow-orchestration/homework.md)
 
