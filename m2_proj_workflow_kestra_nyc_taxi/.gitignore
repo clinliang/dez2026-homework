@@ -1,0 +1,26 @@
+# virtual env (local)
+.venv/
+
+# sensitive variables
+.env_encoded
+
+# python cache
+__pycache__/
+*.py[codz]
+
+# test cache
+.pytest_cache/
+.coverage
+
+# kestra runtime / state
+.kestra/
+kestra-data/
+kestra-db/
+
+# logs
+*.log
+
+# others
+app/
+kestra/
+tests/

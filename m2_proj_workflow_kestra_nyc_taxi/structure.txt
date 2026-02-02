@@ -1,0 +1,20 @@
+.
+├── README.md
+├── docker-compose.yaml
+├── flows
+│   ├── 01_hello_world.yaml
+│   ├── 02_python.yaml
+│   ├── 03_getting_started_data_pipeline.yaml
+│   ├── 04_postgres_taxi.yaml
+│   ├── 05_postgres_taxi_scheduled.yaml
+│   ├── 06_gcp_kv.yaml
+│   ├── 07_gcp_setup.yaml
+│   ├── 08_gcp_taxi.yaml
+│   ├── 09_gcp_taxi_scheduled.yaml
+│   ├── 10_chat_without_rag.yaml
+│   └── 11_chat_with_rag.yaml
+├── pyproject.toml
+├── structure.txt
+└── uv.lock
+
+1 directory, 16 files
