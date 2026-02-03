@@ -29,7 +29,7 @@ Focus on:
 - GCP integration
 - Production-oriented modular architecture
 
-📁 **Directory**: [m2_proj_kestra_postgres_gcp/](./m2_proj_kestra_postgres_gcp/)  
+📁 **Directory**: [m2_proj_workflow_kestra_nyc_taxi/](./m2_proj_workflow_kestra_nyc_taxi/)  
 ➡️ See the **`README.md`** inside for infrastructure and orchestration details.
 
 
