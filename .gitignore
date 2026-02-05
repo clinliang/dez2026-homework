@@ -213,3 +213,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# terraform
+**/*.tfstate
+**/*.tfstate.*
+**/.terraform/
+
+# json
+**/service_account.json
