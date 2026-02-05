@@ -1,0 +1,21 @@
+# virtual env (local)
+.venv/
+
+# python cache
+__pycache__/
+*.py[codz]
+
+# test cache
+.pytest_cache/
+.coverage
+
+# docker runtime data
+data/
+volumes/
+docker-data/
+
+# local override
+docker-compose.override.yml
+
+# other directory or files
+/tests

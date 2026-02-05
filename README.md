@@ -2,6 +2,8 @@
 
 This repository contains homework and practice materials for the Data Engineering Zoomcamp 2026, covering core data engineering concepts from local ingestion to workflow orchestration.
 
+➡️ See **`README.md`** inside each project for setup and usage details.
+
 
 ## Repository Structure
 
@@ -16,7 +18,9 @@ Focus on:
 - Storage in PostgreSQL
 
 📁 **Directory**: [m1_proj_docker_postgres_nyc_taxi/](./m1_proj_docker_postgres_nyc_taxi/)  
-➡️ See the **`README.md`** inside for setup and usage details.
+
+
+---
 
 
 **Module 2 Data Orchestration with Docker + Kestra + Postgres|GCP**
@@ -30,7 +34,22 @@ Focus on:
 - Production-oriented modular architecture
 
 📁 **Directory**: [m2_proj_workflow_kestra_nyc_taxi/](./m2_proj_workflow_kestra_nyc_taxi/)  
-➡️ See the **`README.md`** inside for infrastructure and orchestration details.
+
+
+---
+
+
+**Module 3 ELT with Terraform + Docker + GCS + BigQuery**
+
+Containerized batch ELT architecture for NYC Taxi data focusing on cloud-native storage and data warehousing.
+
+Focus on:
+- Infrastructure as Code (Terraform)
+- Data Lake storage (Google Cloud Storage)
+- Data Warehouse & analytical transforms (BigQuery)
+- Production-ready environment with Docker + uv
+
+📁 **Directory**: [m3_proj_tf-bq-dk_nytaxi_yellow/](./m3_proj_tf-bq-dk_nytaxi_yellow/)
 
 
 ## Branches

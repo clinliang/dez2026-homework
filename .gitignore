@@ -1,15 +1,84 @@
-# Project specific folders to ignore
+# 1. Specific folders
+/docs/
+/m1_docker_terraform/
+/m1_proj_learn_terra/
+/m2_workflow_kestra/
+/m3_proj_bq_ml/
+/m3_datawarehouse_bigquery/
+/m4_proj_dbt_taxi_rides_ny/
+/scratch/
+/variants/
+
 notebooks/
 tests/
-scratch/
-variants/
-
+keys/
 *.parquet
 
-# Byte-compiled / optimized / DLL files
+
+.terraform.lock.hcl
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# 2. OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.cursor*
+*.swp
+
+
+# 3. Python / venv / uv runtime
 __pycache__/
 *.py[codz]
 *$py.class
+
+.venv/
+venv/
+env/
+ENV/
+
+# 3. Build / cache / temp (generic)
+build/
+dist/
+.eggs/
+*.egg-info/
+.cache/
+tmp/
+
+# 4. Jupyter / data artifacts
+.ipynb_checkpoints/
+*.parquet
+*.arrow
+*.feather
+
+# 5. Logs
+*.log
+logs/
+
+# 6. Docker runtime only
+**/docker-data/
+**/volumes/
+**/data/
+
+docker-compose.override.yml
+
+# 7. Local databases
+*.db
+*.sqlite
+*.duckdb
+
+
+# 8. Secrets / env
+.env
+.env.*
+!.env.example
+!.env.template
+
+
+
+
 
 # C extensions
 *.so
@@ -89,6 +158,7 @@ target/
 # IPython
 profile_default/
 ipython_config.py
+
 
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is

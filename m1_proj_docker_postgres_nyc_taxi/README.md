@@ -4,7 +4,6 @@
 
 This is a Docker Compose-based end-to-end data processing solution. It supports the automated ingestion of NYC Taxi historical data (from local Parquet files or remote CSV URLs) into a local PostgreSQL database.
 
-[**Homework Repository: Module1|Workshop1 Docker & Postgres**](https://github.com/clinliang/dez2026-homework/tree/main/m1_proj_docker_postgres_nyc_taxi)
 
 ---
 
@@ -40,14 +39,18 @@ docker-compose run --rm taxi-ingest python -m app.cli.ingest local-parquet-trips
 ## II. Homework Bash & SQL (Questions 1 & 3-6)
 
 ### Question 1. Docker image inspection (pip version of the image python:3.13)
-```Bash
+```Bash:
+>>>>>>> learn
 $ PS1="(m1_proj)$"
 (m1_proj)$ docker run -it --rm -v $(pwd)/test:/app/test --entrypoint=bash python:3.13.11-slim
 root@6591db134bf0:/# pip --version
 ```
 
 ### Question 3. Trips with distance <= 1 mile (Nov. 2025)
-```SQL
+Result: 8,007
+
+```SQL:
+>>>>>>> learn
 SELECT 
 	COUNT(*) AS nb_trips_25nov_less_or_equal_1mile
 FROM green_taxi_trips_2025_11
@@ -57,11 +60,14 @@ WHERE trip_distance <= 1
 ```
 
 ### Question 4. Pickup day with the longest trip (<100 miles)
-```SQL
+Result: 2025-11-14
+
+```SQL:
 SELECT DISTINCT 
-	CAST(lpep_pickup_datetime AS DATE) AS pickup_date_the_longest_trip
+	CAST(lpep_pickup_datetime AS DATE) AS pickup_date_the_farest_trip
+>>>>>>> learn
 FROM green_taxi_trips_2025_11
-WHERE trip_distance = (
+  WHERE trip_distance = (
 	SELECT MAX(trip_distance) 
 	FROM green_taxi_trips_2025_11
 	WHERE trip_distance < 100
@@ -69,6 +75,8 @@ WHERE trip_distance = (
 ```
 
 ### Question 5. Pickup zone with largest total_amount (Nov 18, 2025)
+Result: East Harlem North
+
 ```SQL
 WITH amount_by_zone AS (
 	SELECT "PULocationID", SUM(total_amount) AS zone_amount
@@ -84,7 +92,10 @@ LIMIT 1;
 ```
 
 ### Question 6. Drop-off zone with highest tip (pickup:East Harlem North)
-```SQL
+Result: Yorkville West
+
+```SQL:
+>>>>>>> learn
 SELECT z1."Zone", MAX("tip_amount") AS max_tip
 FROM green_taxi_trips_2025_11 t
 LEFT JOIN dim_taxi_zone z1 ON t."DOLocationID" = z1."LocationID"
@@ -95,10 +106,7 @@ ORDER BY max_tip DESC
 LIMIT 1
 ```
 
-
-
-## III. Data sources
-
+## IV. Data sources
 ### Green trips (2025-11, Parquet)
 - Data: [Download Link](https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2025-11.parquet)
 - Source: [NYC TLC Official Page](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
@@ -113,6 +121,8 @@ LIMIT 1
 
 ## IV. References
 
-- [Homework instruction](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2026/01-docker-terraform/homework.md)
-
 - [Submission URL (<27/01/2025)](https://courses.datatalks.club/de-zoomcamp-2026/homework/hw1)
+
+- [M1 Homework instruction](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2026/01-docker-terraform/homework.md)
+
+- [Homework Repository: Module1|Workshop1 Docker & Postgres](https://github.com/clinliang/dez2026-homework/tree/main/m1_proj_docker_postgres_nyc_taxi)

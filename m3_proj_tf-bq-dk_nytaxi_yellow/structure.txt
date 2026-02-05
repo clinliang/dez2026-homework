@@ -1,0 +1,26 @@
+.
+├── .env
+├── .gitignore
+├── docker-compose.yaml
+├── keys
+│   └── service_account.json
+├── scripts
+│   ├── .python-version
+│   ├── .venv
+│   ├── Dockerfile
+│   ├── README.md
+│   ├── create_bq_table.py
+│   ├── load_yellow_taxi_data.py
+│   ├── main.py
+│   ├── pyproject.toml
+│   └── uv.lock
+└── terraform
+    ├── .terraform
+    ├── .terraform.lock.hcl
+    ├── main.tf
+    ├── provider.tf
+    ├── terraform.tfstate
+    ├── terraform.tfstate.backup
+    └── variables.tf
+
+5 directories, 18 files

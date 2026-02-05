@@ -1,0 +1,21 @@
+services:
+  ingest:
+    build:
+      context: ./scripts
+      dockerfile: Dockerfile
+    image: taxi_ingest:v2
+    environment:
+      - GOOGLE_APPLICATION_CREDENTIALS=/app/keys/auth.json
+    volumes:
+      - ./keys/service_account.json:/app/keys/auth.json
+
+  transform:
+    image: taxi_ingest:v2  # Reuses the image built by 'ingest'
+    environment:
+      - GOOGLE_APPLICATION_CREDENTIALS=/app/keys/auth.json
+    volumes:
+      - ./keys/service_account.json:/app/keys/auth.json
+    # This overrides the script to run the BQ transformation
+    entrypoint: ["uv", "run", "create_bq_table.py"]
+    depends_on:
+      - ingest

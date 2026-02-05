@@ -9,8 +9,7 @@ A modular data engineering stack using Kestra, Postgres, Google Cloud Platform (
 
 - [I. Infrastructure](#i-infrastructure)  
 - [II. Quick Start](#ii-quick-start)
-- [III. Homework Results](#iii-homework-results)
-- [IV. References](#iv-references)
+- [III. References](#iii-references)
 
 ---
 
@@ -97,20 +96,11 @@ docker compose --env-file .env --env-file .env_encoded up -d
 
 Create flows in Kestra and run them. Backfill scheduled flows with triggers according to needs.
 
----
-
-## III. Homework Results
-
-- **Q1 (Yellow 2020-12 File Size)**: 134.5 MiB
-- **Q2 (Rendered Variable file)**: green_tripdata_2020-04.csv
-- **Q3 (Yellow 2020 Total Rows)**: 24,648,499
-- **Q4 (Green 2020 Total Rows)**: 1,734,051
-- **Q5 (Yellow March 2021 Rows)**: 1,925,152
-- **Q6 (Kestra Schedule Timezone)**: Set timezone: America/New_York in the Schedule trigger
 
 ---
 
-## IV. References
+
+## III. References
 
 - [Homework M2 Repository - cll](https://github.com/clinliang/dez2026-homework/tree/main/m2_proj_workflow_kestra_nyc_taxi)
 
