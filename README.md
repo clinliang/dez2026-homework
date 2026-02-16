@@ -71,15 +71,3 @@ Focus on:
 ## Branches
 - **main**: Final homework and project submissions.
 - **learn**: Local practice and experimental code (not pushed to GitHub).
-
-
-
-
-# NYC Taxi Data Tranformation  — dbt core + DuckDB 
-
-**Version 4.1** : Data transformation using **dbt core** on top of **DuckDB** enables a local ELT architecture that ingests NYC Taxi data (Yellow, Green, FHV) and materializes analytics-ready data marts.
-
-
-## I. Architecture
-
-This project implements a **local analytics engineering** pipeline using Python ingestion, **DuckDB**, **dbt core** (with OOM-safe temp configuration), and bash-based **bucket processing**  to produce analytics-ready datasets. For a complete project directory overview, see `structure.txt`.
