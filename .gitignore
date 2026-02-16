@@ -1,12 +1,12 @@
 # 1. Specific folders
-/docs/
-/m1_docker_terraform/
-/m1_proj_learn_terra/
-/m2_workflow_kestra/
-/m3_proj_bq_ml/
-/m3_datawarehouse_bigquery/
-/scratch/
-/variants/
+docs/
+m1_docker_terraform/
+m1_proj_learn_terra/
+m2_workflow_kestra/
+m3_proj_bq_ml/
+m3_datawarehouse_bigquery/
+scratch/
+variants/
 
 notebooks/
 tests/
