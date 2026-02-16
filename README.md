@@ -52,6 +52,34 @@ Focus on:
 📁 **Directory**: [m3_proj_tf-bq-dk_nytaxi_yellow/](./m3_proj_tf-bq-dk_nytaxi_yellow/)
 
 
+---
+
+
+**Module 4 Data Transform with dbt Core + DuckDB**
+
+Local-first ELT pipeline for NYC Taxi data using dbt Core on DuckDB to build analytics-ready data marts.
+
+Focus on:
+- Local ELT pipeline: Python → DuckDB → dbt Core
+- dbt lifecycle: compile, run, test, build, docs
+- Advanced modeling: Jinja macros, packages, variables and configs
+- Scalable execution: OOM-safe and bucket-based batch execution
+
+📁 **Directory**: [m4_proj_dbt_taxi_rides_ny/](./m4_proj_dbt_taxi_rides_ny/)
+
+
 ## Branches
 - **main**: Final homework and project submissions.
 - **learn**: Local practice and experimental code (not pushed to GitHub).
+
+
+
+
+# NYC Taxi Data Tranformation  — dbt core + DuckDB 
+
+**Version 4.1** : Data transformation using **dbt core** on top of **DuckDB** enables a local ELT architecture that ingests NYC Taxi data (Yellow, Green, FHV) and materializes analytics-ready data marts.
+
+
+## I. Architecture
+
+This project implements a **local analytics engineering** pipeline using Python ingestion, **DuckDB**, **dbt core** (with OOM-safe temp configuration), and bash-based **bucket processing**  to produce analytics-ready datasets. For a complete project directory overview, see `structure.txt`.
