@@ -1,0 +1,55 @@
+.
+├── .gitignore
+├── .python-version
+├── README.md
+├── main.py
+├── pyproject.toml
+├── structure.txt
+├── structure2.txt
+├── taxi_rides_ny
+│   ├── .gitignore
+│   ├── README.md
+│   ├── analyses
+│   │   └── .gitkeep
+│   ├── data
+│   │   ├── fhv
+│   │   ├── green
+│   │   └── yellow
+│   ├── dbt_packages
+│   │   └── dbt_utils
+│   ├── dbt_project.yml
+│   ├── ingest.py
+│   ├── logs
+│   │   └── dbt.log
+│   ├── macros
+│   │   ├── .gitkeep
+│   │   ├── get_revenue_month.sql
+│   │   ├── get_trip_duration_minutes.sql
+│   │   ├── get_vendor_names.sql
+│   │   └── safe_cast.sql
+│   ├── models
+│   │   ├── intermediate
+│   │   ├── marts
+│   │   └── staging
+│   ├── package-lock.yml
+│   ├── packages.yml
+│   ├── run_int_trips.sh
+│   ├── seeds
+│   │   ├── .gitkeep
+│   │   ├── payment_type_lookup.csv
+│   │   └── taxi_zone_lookup.csv
+│   ├── snapshots
+│   │   └── .gitkeep
+│   ├── target
+│   │   ├── compiled
+│   │   ├── graph.gpickle
+│   │   ├── graph_summary.json
+│   │   ├── manifest.json
+│   │   ├── partial_parse.msgpack
+│   │   ├── run
+│   │   ├── run_results.json
+│   │   └── semantic_manifest.json
+│   └── taxi_rides_ny.duckdb
+└── uv.lock
+
+19 directories, 34 files

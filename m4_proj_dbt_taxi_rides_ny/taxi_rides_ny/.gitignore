@@ -1,0 +1,8 @@
+
+target/
+dbt_packages/
+logs/
+models/questions.sql
+
+# Data directory
+data/

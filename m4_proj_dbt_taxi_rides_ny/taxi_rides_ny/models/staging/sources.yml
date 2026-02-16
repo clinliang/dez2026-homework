@@ -1,0 +1,35 @@
+version: 2
+
+sources:
+  - name: raw_data
+    description: "Raw data for taxi rides NYC in local DuckDB"
+    database: taxi_rides_ny
+    schema: prod # 
+    tables:
+      - name: yellow_tripdata
+        description: "Yellow taxi trip data for NYC"
+        columns:
+          - name: vendorid
+            description: |
+              A code indicating the provider associated with the trip record.
+              1 = 'Creative Mobile Technologies, LLC'
+              2 = 'VeriFone Inc.'
+              4 = 'Unknown/Other'
+            data_type: integer
+            meta:
+              pii: false
+              owership: data_team
+              importance: high
+              formatting: none
+      - name: green_tripdata
+      - name: fhv_tripdata 
+
+# Crtl + /
+#  -name: raw_data2
+#  description: "Raw data for taxi rides NYC in BigQuery"
+#  database: nytaxi-yellow-cll # gcp project id
+#  schema: nytaxi-yellow-cll.m3_nytaxi_yellow_bq # dataset name
+#  tables:
+#    - name: yellow_tripdata_non_partitioned
+#    - name: yellow_tripdata_optimized
+

@@ -1,0 +1,22 @@
+# virtual env (local)
+.venv/
+.env
+profiles.yml
+
+# data & db
+*.duckdb
+data/
+
+# python cache
+__pycache__/
+*.py[codz]
+
+# test cache
+.pytest_cache/
+.coverage
+
+# dbt build artifacts
+target/
+dbt_modules/
+dbt_packages/
+logs/
