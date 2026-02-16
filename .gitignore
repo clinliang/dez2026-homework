@@ -5,7 +5,6 @@
 /m2_workflow_kestra/
 /m3_proj_bq_ml/
 /m3_datawarehouse_bigquery/
-/m4_proj_dbt_taxi_rides_ny/
 /scratch/
 /variants/
 
@@ -13,6 +12,7 @@ notebooks/
 tests/
 keys/
 *.parquet
+TODO.md
 
 
 .terraform.lock.hcl
