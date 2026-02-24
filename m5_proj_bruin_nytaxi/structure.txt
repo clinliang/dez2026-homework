@@ -1,0 +1,19 @@
+.
+├── structure.txt
+└── zoomcamp
+    ├── README_Bruin.md
+    └── pipeline
+        ├── assets
+        │   ├── ingestion
+        │   │   ├── __pycache__
+        │   │   ├── payment_lookup.asset.yml
+        │   │   ├── payment_lookup.csv
+        │   │   ├── requirements.txt
+        │   │   └── trips.py
+        │   ├── reports
+        │   │   └── trips_report.sql
+        │   └── staging
+        │       └── trips.sql
+        └── pipeline.yml
+
+7 directories, 9 files
