@@ -5,10 +5,18 @@ This repository contains homework and practice materials for the Data Engineerin
 ➡️ See **`README.md`** inside each project for setup and usage details.
 
 
-## Repository Structure
+## Repository list
+
+- [Module 1 Data Ingest Pipeline with Docker + Postgres](#module-1-data-ingest-pipeline-with-docker--postgres)
+- [Module 2 Data Orchestration with Docker + Kestra + Postgres|GCP](#module-2-data-orchestration-with-docker--kestra--postgresgcp)
+- [Module 3 ELT with Terraform + Docker + GCS + BigQuery](#module-3-elt-with-terraform--docker--gcs--bigquery)
+- [Module 4 Data Transform with dbt Core + DuckDB](#module-4-data-transform-with-dbt-core--duckdb)
+- [Module 5 Use Bruin as Data Platform](#module-5-use-bruin-as-data-platform)
 
 
-**Module 1 Data Ingest Pipeline with Docker + Postgres**
+## Repository resume
+
+### Module 1 Data Ingest Pipeline with Docker + Postgres
 
 End-to-end NYC Taxi data ingestion pipeline using Docker Compose.
 
@@ -23,7 +31,7 @@ Focus on:
 ---
 
 
-**Module 2 Data Orchestration with Docker + Kestra + Postgres|GCP**
+### Module 2 Data Orchestration with Docker + Kestra + Postgres|GCP
 
 Orchestrated data engineering stack for NYC Taxi data with workflow management and cloud components.
 
@@ -39,7 +47,7 @@ Focus on:
 ---
 
 
-**Module 3 ELT with Terraform + Docker + GCS + BigQuery**
+### Module 3 ELT with Terraform + Docker + GCS + BigQuery
 
 Containerized batch ELT architecture for NYC Taxi data focusing on cloud-native storage and data warehousing.
 
@@ -55,7 +63,7 @@ Focus on:
 ---
 
 
-**Module 4 Data Transform with dbt Core + DuckDB**
+### Module 4 Data Transform with dbt Core + DuckDB
 
 Local-first ELT pipeline for NYC Taxi data using dbt Core on DuckDB to build analytics-ready data marts.
 
@@ -66,6 +74,22 @@ Focus on:
 - Scalable execution: OOM-safe and bucket-based batch execution
 
 📁 **Directory**: [m4_proj_dbt_taxi_rides_ny/](./m4_proj_dbt_taxi_rides_ny/)
+
+
+---
+
+### Module 5 Use Bruin as Data Platform
+
+Production-style batch data pipeline using Bruin to orchestrate SQL-based transformations with incremental strategies.
+
+Focus on:
+- Batch orchestration with Bruin
+- Data quality checks & asset dependencies
+- Modular SQL asset structure (staging → marts → reports)
+- Production-ready execution with time-window parameters
+
+📁 **Directory**: [m5_proj_bruin_nytaxi/](./m5_proj_bruin_nytaxi/)
+
 
 
 ## Branches
