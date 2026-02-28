@@ -1,0 +1,23 @@
+.
+├── .dlt
+│   ├── config.toml
+│   └── secrets.toml
+├── .github
+│   └── instructions
+│       ├── build-rest-api.instructions.md
+│       ├── dlt.instructions.md
+│       ├── rest_api_extract_parameters.instructions.md
+│       └── rest_api_pagination.instructions.md
+├── .python-version
+├── .vscode
+│   └── mcp.json
+├── README.md
+├── main.py
+├── pyproject.toml
+├── structure.txt
+├── taxi_pipeline.duckdb
+├── taxi_pipeline.py
+├── taxi_pipeline_pipeline.py
+└── uv.lock
+
+4 directories, 16 files

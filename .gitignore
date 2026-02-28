@@ -5,6 +5,7 @@ m1_proj_learn_terra/
 m2_workflow_kestra/
 m3_proj_bq_ml/
 m3_datawarehouse_bigquery/
+m6_dlt_mcp_openlib/
 scratch/
 variants/
 
@@ -76,7 +77,7 @@ docker-compose.override.yml
 !.env.example
 !.env.template
 
-
+secrets.toml
 
 
 

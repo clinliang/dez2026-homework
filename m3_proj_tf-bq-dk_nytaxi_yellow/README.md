@@ -99,7 +99,9 @@ WHERE tpep_dropoff_datetime >= '2024-03-01'
 
 ## IV. References
 
-- [Homework M3 Repository - cll](https://github.com/clinliang/dez2026-homework/tree/main/m3_proj_tf-bq-dk_nytaxi_yellow)
+- [M3 DataWarehouse BigQuery Repository - DTC Data Engineering Zoomcamp 2026](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/03-data-warehouse)
+
+- [Homework M2 Repository - cll](https://github.com/clinliang/dez2026-homework/tree/main/m3_proj_tf-bq-dk_nytaxi_yellow)
 
 - [Homework M3 instruction](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2026/03-data-warehouse/homework.md)
 

@@ -1,4 +1,4 @@
-# NYC Taxi Data Tranformation  — dbt core + DuckDB 
+# NYC Taxi Data Tranformation  — dbt core + DuckDB
 
 **Version 4.1** : Data transformation using **dbt core** on top of **DuckDB** enables a local ELT architecture that ingests NYC Taxi data (Yellow, Green, FHV) and materializes analytics-ready data marts.
 
@@ -93,6 +93,8 @@ $ duckdb taxi_rides_ny.duckdb "select count(*) from prod_staging.stg_fhv_tripdat
 
 
 ## IV. References
+
+- [M4 dbt Repository - DTC Data Engineering Zoomcamp 2026](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/04-analytics-engineering)
 
 - [Homework M4 Repository - cll](https://github.com/clinliang/dez2026-homework/tree/main/m4_proj_dbt_taxi_rides_ny)
 

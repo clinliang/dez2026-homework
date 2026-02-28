@@ -47,6 +47,8 @@ bruin run ./zoomcamp/pipeline/assets/staging/trips.sql
 
 ## IV. References
 
+- [M5 Bruin Repository - DTC Data Engineering Zoomcamp 2026](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/05-data-platforms)
+
 - [Homework M5 Repository - cll](https://github.com/clinliang/dez2026-homework/tree/main/m5_proj_bruin_nytaxi)
 
 - [Homework M5 instruction](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2026/05-data-platforms/homework.md)

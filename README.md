@@ -2,6 +2,7 @@
 
 This repository contains homework and practice materials for the Data Engineering Zoomcamp 2026, covering core data engineering concepts from local ingestion to workflow orchestration.
 
+➡️ See all modules' content in [Data Engineering Zoocamp Github Repository](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main)
 ➡️ See **`README.md`** inside each project for setup and usage details.
 
 
@@ -12,6 +13,7 @@ This repository contains homework and practice materials for the Data Engineerin
 - [Module 3 ELT with Terraform + Docker + GCS + BigQuery](#module-3-elt-with-terraform--docker--gcs--bigquery)
 - [Module 4 Data Transform with dbt Core + DuckDB](#module-4-data-transform-with-dbt-core--duckdb)
 - [Module 5 Use Bruin as Data Platform](#module-5-use-bruin-as-data-platform)
+- [Module 6 AI-Assisted Data Pipeline with dlt + DuckDB](#module-6-ai-assisted-data-pipeline-with-dlt--duckdb)
 
 
 ## Repository resume
@@ -89,6 +91,21 @@ Focus on:
 - Production-ready execution with time-window parameters
 
 📁 **Directory**: [m5_proj_bruin_nytaxi/](./m5_proj_bruin_nytaxi/)
+
+
+---
+
+### Module 6 AI-Assisted Data Pipeline with dlt + DuckDB
+
+Production-ready batch data pipeline built with dlt and DuckDB, enhanced by MCP for AI-assisted development and ad hoc analysis.
+
+Focus on:
+- AI-assisted pipeline setup and ad hoc SQL exploration via Copilot (MCP)
+- Incremental loading strategy with dlt
+- Structured transformation layers (ingestion → staging)
+- Local analytical warehouse powered by DuckDB
+
+📁 **Directory**: [m6_proj_dlt_mcp_nytaxi/](./m6_proj_dlt_mcp_nytaxi/)
 
 
 
