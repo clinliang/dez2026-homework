@@ -14,7 +14,7 @@ This repository contains homework and practice materials for the Data Engineerin
 - [Module 3 ELT with Terraform + Docker + GCS + BigQuery](#module-3-elt-with-terraform--docker--gcs--bigquery)
 - [Module 4 Data Transform with dbt Core + DuckDB](#module-4-data-transform-with-dbt-core--duckdb)
 - [Module 5 Use Bruin as Data Platform](#module-5-use-bruin-as-data-platform)
-- [Module 6 AI-Assisted Data Pipeline with dlt + DuckDB](#module-6-ai-assisted-data-pipeline-with-dlt--duckdb)
+- [Workshop 1 AI-Assisted Data Pipeline with dlt + DuckDB](#workshop-1-ai-assisted-data-pipeline-with-dlt--duckdb)
 
 
 ## Repository resume
@@ -96,7 +96,7 @@ Focus on:
 
 ---
 
-### Module 6 AI-Assisted Data Pipeline with dlt + DuckDB
+### Workshop 1 AI-Assisted Data Pipeline with dlt + DuckDB
 
 Production-ready batch data pipeline built with dlt and DuckDB, enhanced by MCP for AI-assisted development and ad hoc analysis.
 
@@ -106,7 +106,7 @@ Focus on:
 - Structured transformation layers (ingestion → staging)
 - Local analytical warehouse powered by DuckDB
 
-📁 **Directory**: [m6_proj_dlt_mcp_nytaxi/](./m6_proj_dlt_mcp_nytaxi/)
+📁 **Directory**: [ws1_proj_dlt_mcp_nytaxi/](./ws1_proj_dlt_mcp_nytaxi/)
 
 
 
