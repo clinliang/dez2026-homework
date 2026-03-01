@@ -1,0 +1,10 @@
+[project]
+name = "m6-proj-dlt-mcp-nytaxi"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dlt[duckdb,workspace]>=1.22.1",
+    "pandas>=3.0.1",
+]
