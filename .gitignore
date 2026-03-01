@@ -24,7 +24,7 @@ TODO.md
 # 2. OS / Editor
 .DS_Store
 Thumbs.db
-.vscode/
+#.vscode/
 .idea/
 .cursor*
 *.swp

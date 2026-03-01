@@ -186,7 +186,7 @@ cython_debug/
 .abstra/
 
 # Visual Studio Code
-.vscode/
+#.vscode/
 
 # Ruff stuff:
 .ruff_cache/
