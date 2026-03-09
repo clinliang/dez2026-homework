@@ -1,0 +1,14 @@
+.
+├── .gitignore
+├── .python-version
+├── README.md
+├── code
+│   ├── 06-2_spark_standalone_script.py
+│   ├── 25-11-y_spark_dataproc_bq.py
+│   ├── download_nytaxi_pq.sh
+├── main.py
+├── pyproject.toml
+├── structure.txt
+└── uv.lock
+
+3 directories, 10 files

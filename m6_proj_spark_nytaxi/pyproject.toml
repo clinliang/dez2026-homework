@@ -1,0 +1,12 @@
+[project]
+name = "m6-proj-spark-nytaxi"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.2.0",
+    "jupyterlab>=4.5.5",
+    "pandas>=3.0.1",
+    "pyspark==3.5.1",
+]
