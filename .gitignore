@@ -8,6 +8,8 @@ m3_datawarehouse_bigquery/
 ws1_dlt_mcp_openlib/
 scratch/
 variants/
+spark-warehouse/
+lib/
 
 notebooks/
 tests/
