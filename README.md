@@ -15,6 +15,9 @@ This repository contains homework and practice materials for the Data Engineerin
 - [Module 4 Data Transform with dbt Core + DuckDB](#module-4-data-transform-with-dbt-core--duckdb)
 - [Module 5 Use Bruin as Data Platform](#module-5-use-bruin-as-data-platform)
 - [Workshop 1 AI-Assisted Data Pipeline with dlt + DuckDB](#workshop-1-ai-assisted-data-pipeline-with-dlt--duckdb)
+- [Module 6 Batch Processing with Spark Standalone or DataProc](#module-6-batch-processing-with-spark-standalone-or-dataproc)
+- [Module 7 Stream Processing with Kafka and Flink](#module-7-stream-processing-with-kafka-and-flink)
+
 
 
 ## Repository resume
@@ -108,6 +111,33 @@ Focus on:
 
 📁 **Directory**: [ws1_proj_dlt_mcp_nytaxi/](./ws1_proj_dlt_mcp_nytaxi/)
 
+
+---
+
+
+### Module 6 Batch Processing with Spark Standalone or DataProc
+
+End-to-end Spark pipeline for NYC Taxi data, scaling from local clusters to GCP Dataproc.
+
+Focus on:
+- Environments: Spark Standalone (Local) and GCP Dataproc (Cloud)
+- Architecture: Three-layer batch flow (Raw → Staging → Report)
+- Ecosystem: Integration with Google Cloud Storage and BigQuery
+
+📁 **Directory**: [m6_proj_spark_ny/](./m6_proj_spark_nytaxi/)
+
+---
+
+### Module 7 Stream Processing with Kafka and Flink
+
+End-to-end streaming pipeline for NYC Taxi trip data, processing real-time events from ingestion to analytics.
+
+Focus on:
+- Environment: Local infrastructure orchestrated with Docker Compose
+- Architecture: Real-time streaming pipeline simulation (Producer → Kafka → Flink → PostgreSQL)
+- Ecosystem: Kafka for event streaming, PyFlink for stream processing, PostgreSQL for analytics storage
+
+📁 **Directory**: [m7_proj_kafka_flink/](./m7_proj_kafka_flink/)
 
 
 ## Branches

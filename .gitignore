@@ -11,6 +11,10 @@ variants/
 spark-warehouse/
 lib/
 
+m7_proj_kafka_flink/src/job/aggregation_job.py
+m7_proj_kafka_flink/src/job/pass_through_job.py
+m7_proj_kafka_flink/src/producers/producer_realtime.py
+
 notebooks/
 tests/
 keys/
